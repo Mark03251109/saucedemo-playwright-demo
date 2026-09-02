@@ -85,3 +85,14 @@ This project uses the public SauceDemo test site:
 `https://www.saucedemo.com`
 
 No production credentials, customer data, or employer-owned source code are included.
+
+## Key design decisions
+
+- Used Page Object Model to separate test logic from UI locators.
+- Added reusable Components for shared UI elements.
+- Used pytest fixtures to simplify browser setup and reusable login state.
+- Kept test cases focused on readable business scenarios.
+
+## Test result
+
+All 5 automated test scenarios passed successfully with Chromium.
